@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<header class="colorheader position-fixed w-100 ">
+
+
+    <nav class="d-flex justify-content-around align-items-center">
+        <a href="#" id="video-home">
+            <img src="assets/img/logoPetit.jpg"  alt="">
+        </a>
+        <a href="#" class="no-decorator" id="Home">Home</a>
+        <a href="#" class="no-decorator" id="Shop">Shop</a>
+        <a href="#" class="no-decorator" id="Blog">Blog</a>
+        <a href="#" class="no-decorator" id="Contact">Contact</a>
+        <button>Sign Up</button>
+    </nav>
+</header>
+
+<section class="video-home hidden">
+
+    <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+        <source src="assets/img/video1.mp4" type="video/mp4">
+    </video>
+
+    <!-- Optional: some overlay text to describe the video -->
+    <div class="content text-center">
+        <h1>Aller sur Porc.fr</h1>
+        <!-- Use a button to pause/play the video with JavaScript -->
+        <button id="myBtn" onclick="myFunction()">ICI</button>
+    </div>
+
+    <!--    <div id="set-height"></div>-->
+<!--    <p id="time"></p>-->
+<!--    <video id="v0" tabindex="0" autobuffer="autobuffer" preload="preload">-->
+<!--        <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src="https://www.apple.com/media/us/mac-pro/2013/16C1b6b5-1d91-4fef-891e-ff2fc1c1bb58/videos/macpro_main_desktop.mp4"></source>-->
+<!--    </video>-->
+<!--    <div class="p-5 text-center position-absolute">-->
+<!--        <a id="QuitBgVideo"  href="">-->
+<!--            <h1 class="white-str">Aller sur le site</h1>-->
+<!--        </a>-->
+<!--    </div>-->
+
+</section>
+
+<section class="home " id="back-home">
+    <div class="home-div d-flex align-items-center ">
+
+        <div class="container-xxl text-center">
+
+
+            <h1 class="mt-5 ">Your Best Value Proposition</h1>
+            <p>“If you don’t try this app, you won’t become the superhero you were meant to be”</p>
+
+            <div class="row mt-5 container-xxl m-auto text-start">
+                <div class="col-xl-3 mt-3">
+                    <a href="#car-1">
+                        <div class="squarePic img-car-square" style="background-image: url(assets/img/p1.jpg)"></div>
+                    </a>
+                    <div class="bg-txt d-flex justify-content-between flex-column txt-part-1">
+                        <h2 class="pt-3 p-4">Taican</h2>
+                        <a class="m-lg-4 pb-21 no-decorator" href="#car-1">See More ></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 mt-3">
+                    <a href="#car-2">
+                        <div class="squarePic img-car-square" style="background-image: url(assets/img/p2.jpg)"></div>
+                    </a>
+                    <div class="bg-txt d-flex justify-content-between flex-column txt-part-1">
+                        <h2 class="pt-3 p-4">Taican Sport</h2>
+                        <a class="m-lg-4 pb-21 no-decorator" href="#car-2">See More ></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 mt-3">
+                    <a href="#car-3">
+                        <div class="squarePic img-car-square" style="background-image: url(assets/img/p3.jpeg)"></div>
+                    </a>
+                    <div class="bg-txt detaqil-prop d-flex justify-content-between flex-column txt-part-1">
+                        <h2 class="pt-3 p-4">911</h2>
+                        <a class="m-lg-4 pb-1 no-decorator" href="#car-3">See More ></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 mt-3">
+                    <a href="#car-4">
+                        <div class="squarePic img-car-square" style="background-image: url(assets/img/p4.jpg)"></div>
+                    </a>
+                    <div class="bg-txt d-flex justify-content-between flex-column txt-part-1">
+                        <h2 class="pt-3 p-4">GT3 RS</h2>
+                        <a class="m-lg-4 pb-21 no-decorator" href="#car-4">See More ></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="home-div-car-1 vh-100 bg-black d-flex flex-row flex-md-row-reverse"  id="car-1">
+            <div class="col-md-6 vh-100" style="background-image: url(assets/img/p1.jpg); background-size: cover;" ></div>
+            <div class="col-md-6 white-str m-auto"  >
+
+                <div class="d-flexjustify-content-center text-center">
+
+                    <h1><strong>718 Cayman GT4 RS</strong></h1>
+                    <h3>368 kW/500 ch</h3>
+                    <h4>3,4 s / 315 km/h</h4>
+                    <p class="mb-3 pb-5">à partire de 153.085,54 EUR TTC</p>
+
+                    <a  class="arrow-home-car pt-5 mt-5" href="#car-2"><img src="assets/img/icons8-arrow-64.png" style="rotate: 270deg" ></a>
+
+                </div>
+            </div>
+    </div>
+
+    <div class="home-div-car-2 vh-100  d-flex flex-row" id="car-2">
+        <div class="col-md-6 vh-100 " style="background-image: url(assets/img/p2.jpg); background-size: cover;" ></div>
+        <div class="col-md-6 m-auto"  >
+
+            <div class="d-flexjustify-content-center text-center">
+
+                <h1><strong>718 Cayman GT4 RS</strong></h1>
+                <h3>368 kW/500 ch</h3>
+                <h4>3,4 s / 315 km/h</h4>
+                <p class="mb-3 pb-5">à partire de 153.085,54 EUR TTC</p>
+
+                <a class="arrow-home-car pt-5 mt-5" href="#car-3"><img src="assets/img/icons8-arrow-64.png" style="rotate: 270deg" ></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="home-div-car-3 vh-100 bg-black d-flex flex-row flex-md-row-reverse" id="car-3">
+        <div class="col-md-6 vh-100" style="background-image: url(assets/img/p3.jpeg); background-size: cover;" ></div>
+        <div class="col-md-6 white-str m-auto"  >
+
+            <div class="d-flexjustify-content-center text-center">
+
+                <h1><strong>718 Cayman GT4 RS</strong></h1>
+                    <h3>368 kW/500 ch</h3>
+                    <h4>3,4 s / 315 km/h</h4>
+                    <p class="mb-3 pb-5" >à partire de 153.085,54 EUR TTC</p>
+
+                <a  class="arrow-home-car pt-5 mt-5" href="#car-4"><img src="assets/img/icons8-arrow-64.png" style="rotate: 270deg" ></a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="home-div-car-4 vh-100  d-flex flex-row" id="car-4">
+        <div class="col-md-6 vh-100" style="background-image: url(assets/img/p4.jpg); background-size: cover;" ></div>
+        <div class="col-md-6  m-auto"  >
+
+            <div class="d-flexjustify-content-center text-center">
+
+                <h1><strong>718 Cayman GT4 RS</strong></h1>
+                    <h3>368 kW/500 ch</h3>
+                    <h4>3,4 s / 315 km/h</h4>
+                    <p class="mb-3 pb-5">à partire de 153.085,54 EUR TTC</p>
+
+                <a class="arrow-home-car pt-5 mt-5" href="#back-home"><img src="assets/img/icons8-arrow-64.png" style="rotate: 90deg" ></a>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section class="shop hidden ">
+
+    <div class="shop  d-flex align-items-center">
+        <div class="container-xxl text-center ">
+            <h1>Your Best Value Proposition</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam,</p>
+
+            <div class="row mt-5 text-start  m-auto justify-content-center">
+
+                <div class="col-xl-3 mt-3">
+                    <a href="#sh-d">
+                        <div class="square-pic-shop " style="background-image: url(assets/img/s1.png)"></div>
+                    </a>
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                    <a class="no-decorator pt-3" href="#sh-d">Learn More</a>
+                </div>
+
+                <div class="col-xl-3 mt-3">
+                    <a href="#sh-d">
+                        <div class="square-pic-shop " style="background-image: url(assets/img/s2.jpg)"></div>
+                    </a>
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                    <a class="no-decorator pt-3" href="#sh-d">Learn More</a>
+                </div>
+
+                <div class="col-xl-3 mt-3">
+                    <a href="#sh-d">
+                        <div class="square-pic-shop " style="background-image: url(assets/img/s3.jpg)"></div>
+                    </a>
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                    <a class="no-decorator pt-3" href="#sh-d">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-details m-auto text-center pt-5 d-flex align-items-center" id="sh-d">
+        <div class="container-xxl">
+            <h1>Transparent Pricing</h1>
+            <p>“If you don’t try this app, you won’t become the superhero you were meant to be”</p>
+
+            <div class="row m-auto mt-5 pt-5 d-flex justify-content-between  ">
+                <div class="container-pricing col-xl-3 mt-3">
+                    <img class="ico-details-shop mt-5 mb-3" src="assets/img/s1.png" alt="">
+                    <h3>Title</h3>
+                    <h5>Subtitle</h5>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                    </ul>
+                    <button class="btn-shop-details mt-3 mb-5"><strong>Buy</strong></button>
+                </div>
+                <div class="container-pricing col-xl-3 mt-3">
+                    <img class="ico-details-shop mt-5 mb-3" src="assets/img/s2.jpg" alt="">
+                    <h3>Title</h3>
+                    <h5>Subtitle</h5>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                    </ul>
+                    <button class="btn-shop-details mt-3 mb-5"><strong>Buy</strong></button>
+                </div>
+                <div class="container-pricing col-xl-3 mt-3">
+                    <img class="ico-details-shop mt-5 mb-3" src="assets/img/s3.jpg" alt="">
+                    <h3 class="mt-3">Title</h3>
+                    <h5>Subtitle</h5>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                    </ul>
+
+                    <button class="btn-shop-details mt-3 mb-5"><strong>Buy</strong></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="blog hidden">
+    <div class="blog-div d-flex align-items-center">
+        <div class="m-auto d-flex align-content-center container-xxl">
+
+                <div class=" row ">
+
+                        <div class="col-md-4 mb-4">
+                            <div class="img-bloc-glog h-100" style="background: linear-gradient(280deg, rgba(0,0,0,0.18), rgba(0, 0, 0, 0.55)),  url(assets/img/G1.jpg);background-size: cover;  ">
+                                <h1 class="white-str text-start p-4">The best way to wireframe a website or landing page</h1>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-4">
+
+                            <div  class="img-bloc-glog h-100 white-str" style="background: linear-gradient(280deg, rgba(0,0,0,0.18), rgba(0, 0, 0, 0.55)),  url(assets/img/G2.jpg);background-size: cover; ">
+                                <div class="p-3 ">
+                                    <p class="pt-2 pb-2 p-4 ">Caterogry</p>
+                                </div>
+                                <div class="p-3 ">
+                                    <h3 class="p-4">Keys to writing copy that actually converts and sells users</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex-column  col-md-4">
+
+                                <div class="img-bloc-glog flex-column justify-content-center text-start p-4 mb-4 white-str" style="background: linear-gradient(280deg, rgba(0,0,0,0.18), rgba(0, 0, 0, 0.55)), url(assets/img/G3.jpg);background-size: cover;">
+                                    <p>Category</p>
+                                    <h3>Keys to writing copy that actually converts and sells users</h3>
+                                    <p>Author Name</p>
+                                </div>
+
+                                <div class="img-bloc-glog flex-column justify-content-center text-start p-4 mb-4 white-str" style="background: linear-gradient(280deg, rgba(0,0,0,0.18), rgba(0, 0, 0, 0.55)), url(assets/img/G4.jpg);background-size: cover;">
+                                    <p>Category</p>
+                                    <h3>Keys to writing copy that actually converts and sells users</h3>
+                                    <p>Author Name</p>
+                                </div>
+                        </div>
+
+                </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="contact hidden">
+    <div class="contact-div d-flex align-items-center">
+        <div class="container-xxl">
+
+            <div class="col-md-12 p-3">
+
+                <div class="top-block-ct row ">
+                    <div class="col-md-4">
+                        <div class="img-contact-top-bloc"  style="background-image: url(assets/img/c1.jpg);background-size: cover;width: 100%; height: 100%;"></div>
+                    </div>
+                    <div class="col-md-8 p-5 text-white">
+                        <p>Author name</p>
+                        <h1 class="mb-5">The best way to <br> wireframe a website</h1>
+                        <a href="#section-2-contact" class="text-white no-decorator pt-5">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bottom_blocks row pt-1 ">
+
+                <div class="p-3  col-md-6">
+
+                    <div class="bottom-bloc-1 bg-white p-4">
+                        <h4 class="mb-4"><strong>Keys to writing copy that actually converts and sells users</strong></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+                        <a href="#section-2-contact" class="no-decorator mt-4">Read More</a>
+                    </div>
+
+                </div>
+
+                <div class="p-3  col-md-6">
+
+                    <div class="bottom-bloc-2 bg-white p-4">
+                        <h4 class="mb-4"><strong>Keys to writing copy that actually converts and sells users</strong></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+                        <a href="#section-2-contact" class="no-decorator mt-4">Read More</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<!--    SECTION CONTACT 2-->
+
+    <div class="contact-div-2 "  id="section-2-contact">
+        <div class="col-md-12 h-100 d-flex align-items-center " style="background:linear-gradient(280deg, rgba(0,0,0,0.5), rgba(255,255,255,0.46)),  url('assets/img/p3.jpeg'); background-size: cover;">
+            <div class="contact-form-c col-md-6 p-5 container-xxl " style="background-color: rgb(255,255,255);">
+                <div class="d-flex flex-column ">
+                    <h3 class="pb-4" style="font-family: fontPorsche; margin: auto" >Contact</h3>
+                        <input class="name mb-3" placeholder="Nom">
+                        <input class="firstname mb-3" placeholder="Prénom">
+                        <input  class="mail mb-3" placeholder="Email">
+                        <textarea class="mb-3" placeholder="Votre message ..."></textarea>
+                        <button>Envoyer</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</section>
+
+
+</body>
+</html><script src="assets/js/app.js"></script>

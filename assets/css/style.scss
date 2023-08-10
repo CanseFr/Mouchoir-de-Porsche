@@ -1,0 +1,487 @@
+//================================================FONT=========================================================
+
+// Definir nos font
+
+@font-face {
+    font-family: 'fontPorsche';
+    src: url('../font/911porschav3.ttf') format('truetype');
+}
+
+//==================================================BASE================================================================
+
+:root {
+    --color-grey: #F2F2F2;
+    --color-white: #ffffff;
+}
+
+.white-str {
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.greyBg {
+    background-color: var(--color-grey);
+}
+
+.colorheader {
+    background-color: white;
+}
+
+.bg-txt {
+    background-color: var(--color-white);
+}
+
+.marge-container-1 {
+    width: calc(100% - 200px);
+    margin: auto;
+}
+
+.squarePic {
+    height: 400px;
+    width: 100%;
+}
+
+.img-car-square {
+    background-size: cover;
+}
+
+.txt-part-1 {
+    height: 200px;
+}
+
+.no-decorator {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: var(--color-grey);
+}
+
+
+//==================================================NAV================================================================
+
+header {
+    top: 0;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.26);
+
+    nav {
+        height: 90px;
+
+        img {
+            scale: 0.5;
+        }
+
+        a {
+            font-size: 1.5em;
+            transition: .2s;
+            width: 50px;
+            font-family: fontPorsche;
+        }
+
+        a:hover {
+            letter-spacing: 1px;
+            color: #5b5b5b;
+            transition: .3s;
+        }
+
+        button {
+            background-color: white;
+            width: 130px;
+            height: 43px;
+            border: solid 2px black;
+            border-radius: 6px;
+            transition: .3s;
+        }
+
+        button:hover {
+            border: solid 2px #87151a;
+            color: #926e39;
+            transition: .3s;
+        }
+    }
+}
+
+//==================================================VIDEO HOME================================================================
+//
+//#set-height {
+//    display: block;
+//}
+//#v0 {
+//    position: fixed;
+//    top: 0;
+//    left: 0;
+//    width: 100%;
+//}
+//p font-family helvetica {
+//    font-size: 24px;
+//}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+
+//==================================================HOME================================================================
+
+.arrow-home-car{
+    img{
+    transition: .3s;
+    }
+}
+
+.arrow-home-car:hover{
+    img{
+    transition: .3s;
+    rotate: -270deg;
+    scale: 1.1;
+    }
+}
+
+section.home {
+    div.home-div {
+        height: 100vh;
+        div.squarePic {
+            transition: .2s;
+        }
+
+        div.squarePic:hover {
+            scale: 0.9;
+            transition: .3s;
+            box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.47);
+            border-radius: 8px;
+        }
+
+        div.bg-txt {
+            h2 {
+                transition: .2s;
+            }
+
+            h2:hover {
+                letter-spacing: 1px;
+                color: #5b5b5b;
+                transition: .3s;
+                cursor: pointer;
+            }
+
+            a {
+                transition: .2s;
+            }
+
+            a:hover {
+                letter-spacing: 1px;
+                color: #5b5b5b;
+                transition: .3s;
+            }
+        }
+    }
+    div.home-div-car-1{
+
+    }
+    div.home-div-car-2{
+
+    }
+    div.home-div-car-3{
+
+    }
+    div.home-div-car-4{
+
+    }
+}
+
+
+//==================================================SHOP================================================================
+
+
+.square-pic-shop {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+div.shop {
+    height: 100vh;
+}
+
+div.shop-details {
+    height: 100vh;
+    background-color: white;
+}
+
+section.shop {
+    a.no-decorator {
+        transition: .2s;
+    }
+
+    a.no-decorator:hover {
+        letter-spacing: 1px;
+        color: #5b5b5b;
+        transition: .3s;
+    }
+
+    div.square-pic-shop {
+        transition: .2s;
+        border-radius: 8px;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.26);
+    }
+
+    div.square-pic-shop:hover {
+        scale: 0.9;
+        transition: .3s;
+        box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.26);
+    }
+
+}
+
+//==================================================SHOP-DETAILS
+
+.container-pricing {
+    background: linear-gradient(#eeeeee, #d5d5d5);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.28);
+}
+
+.ico-details-shop {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    width: 15%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.26);
+}
+
+.under-title-feature {
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.btn-shop-details {
+    background-color: white;
+    border-radius: 8px;
+    width: 137px;
+    height: 41px;
+    transition: .2s;
+}
+
+.btn-shop-details:hover {
+    letter-spacing: 1px;
+    background-color: #000000;
+    transition: .8s;
+    color: white;
+    box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.26);
+}
+
+.container-pricing {
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            color: rgba(0, 0, 0, 0.45);
+
+        }
+    }
+}
+
+//==================================================BLOG================================================================
+
+section.blog {
+    .blog-div {
+        height: 100vh;
+
+        div.m-auto {
+            div.row {
+                div.col-md-4 {
+                    div.img-bloc-glog {
+                        border-radius: 8px;
+                        box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.26);
+                        transition: .3s;
+
+                        h1 {
+                            font-size: 3.5em;
+                        }
+                    }
+
+                    div.img-bloc-glog:hover {
+                        cursor: pointer;
+                        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.45);
+                        transition: .3s;
+
+                        h1 {
+                            color: rgba(218, 218, 218, 0.84);
+                        }
+                    }
+                }
+
+                div.col-md-4 {
+                    div.img-bloc-glog {
+                        div.p-3 {
+
+                            p.pt-2 {
+                                color: white;
+                                background-color: black;
+                                width: 120px;
+                            }
+
+                            p.pt-2:hover {
+                                cursor: pointer;
+                                color: black;
+                                background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(234, 175, 175, 0.37))
+                            }
+                        }
+
+                        div.p-3 {
+                            h3.p-4 {
+                                color: white;
+                                background-color: black;
+                            }
+
+                            h3.p-4:hover {
+                                cursor: pointer;
+                                color: black;
+                                background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(234, 175, 175, 0.37))
+                            }
+                        }
+                    }
+                }
+
+                div.flex-column {
+                    div.img-bloc-glog:hover {
+                        color: rgba(218, 218, 218, 0.84);
+                    }
+
+                    div.img-bloc-glog:hover {
+                        color: rgba(218, 218, 218, 0.84);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+//==================================================CONTACT================================================================
+
+section.contact {
+    .contact-div {
+        height: 100vh;
+
+        .container-xxl {
+            div.top-block-ct {
+                transition: .3s;
+
+                .img-contact-top-bloc {
+                }
+
+                background-color: black;
+
+                h1 {
+                    font-size: 4em;
+                }
+
+                a.pt-5 {
+                    font-size: 1.2em;
+                }
+            }
+
+            div.top-block-ct:hover {
+                cursor: pointer;
+                box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.45);
+                transition: .3s;
+                border-radius: 8px;
+            }
+
+
+            div.bottom_blocks {
+                div.bottom-bloc-1 {
+                    transition: .3s;
+                }
+
+                div.bottom-bloc-2 {
+                    transition: .3s;
+                }
+
+                div.bottom-bloc-1:hover {
+                    transition: .3s;
+                    cursor: pointer;
+                    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.45);
+                    border-radius: 8px;
+                }
+
+                div.bottom-bloc-2:hover {
+                    transition: .3s;
+                    cursor: pointer;
+                    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.45);
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+
+    .contact-div-2 {
+        height: 100vh;
+    }
+}
+
+.bor-inp-cnt {
+    border-radius: 8px;
+}
+
+.contact-form-c {
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.45);
+    width: 15%;
+
+    input {
+        border-radius: 8px;
+    }
+
+    textarea {
+        border-radius: 8px;
+        height: 100px;
+    }
+
+    button {
+        margin: auto;
+        width: 50%;
+        border: none;
+        border-radius: 8px;
+        transition: .3s;
+    }
+}
